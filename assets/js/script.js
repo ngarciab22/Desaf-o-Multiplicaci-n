@@ -1,13 +1,13 @@
-// // Se crea variable para que el usuario ingrese un número del 1 al 20
-// let ingresarNum = parseInt(prompt("Ingresa un número del 1 al 20"));
-// // Función para validar si el número está dentro del rango
-// const validarNum = (num) => {
-//     if (num < 1 || num > 20) {
-//         alert("Número fuera del rango permitido (1 al 20).");
-//         return false;
-//     }
-//     return true;
-// }
+// Se crea variable para que el usuario ingrese un número del 1 al 20
+let ingresarNum = parseInt(prompt("Ingresa un número del 1 al 20"));
+// Función para validar si el número está dentro del rango
+const validarNum = (num) => {
+    if (num < 1 || num > 20) {
+        alert("Número fuera del rango permitido (1 al 20).");
+        return false;
+    }
+    return true;
+}
 // // Función para imprimir en consola la tabla de multiplicación del número dado
 // const Multiplicacion = (num) => {
 //     for (let i = 1; i <= num; i++) {
