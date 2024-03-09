@@ -15,16 +15,16 @@ const Multiplicacion = (num) => {
         console.log(`${i} x ${num} = ${resultado}`);
     }
 }
-// // Función para calcular y mostrar el factorial
-// const Factorial = (num) => {
-//     for (let i = 1; i <= num; i++) {
-//         let resultado = 1;
-//         for (let j = 1; j <= i; j++) {
-//             resultado *= j;
-//         }
-//         console.log(`Factorial de ${i} es: ${resultado}`);
-//     }
-// }
+// Función para calcular y mostrar el factorial
+const Factorial = (num) => {
+    for (let i = 1; i <= num; i++) {
+        let resultado = 1;
+        for (let j = 1; j <= i; j++) {
+            resultado *= j;
+        }
+        console.log(`Factorial de ${i} es: ${resultado}`);
+    }
+}
 // // Validar el número ingresado
 // let validacion = validarNum(ingresarNum);
 // // Si el número es válido, imprimir multiplicación y factorial
