@@ -8,13 +8,13 @@ const validarNum = (num) => {
     }
     return true;
 }
-// // Función para imprimir en consola la tabla de multiplicación del número dado
-// const Multiplicacion = (num) => {
-//     for (let i = 1; i <= num; i++) {
-//         let resultado = i * num;
-//         console.log(`${i} x ${num} = ${resultado}`);
-//     }
-// }
+// Función para imprimir en consola la tabla de multiplicación del número dado
+const Multiplicacion = (num) => {
+    for (let i = 1; i <= num; i++) {
+        let resultado = i * num;
+        console.log(`${i} x ${num} = ${resultado}`);
+    }
+}
 // // Función para calcular y mostrar el factorial
 // const Factorial = (num) => {
 //     for (let i = 1; i <= num; i++) {
