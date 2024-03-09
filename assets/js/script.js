@@ -25,12 +25,12 @@ const Factorial = (num) => {
         console.log(`Factorial de ${i} es: ${resultado}`);
     }
 }
-// // Validar el número ingresado
-// let validacion = validarNum(ingresarNum);
-// // Si el número es válido, imprimir multiplicación y factorial
-// if (validacion) {
-//     Multiplicacion(ingresarNum);
-//     Factorial(ingresarNum);
-// }
+// Validar el número ingresado
+let validacion = validarNum(ingresarNum);
+// Si el número es válido, imprimir multiplicación y factorial
+if (validacion) {
+    Multiplicacion(ingresarNum);
+    Factorial(ingresarNum);
+}
 
 
